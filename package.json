@@ -1,0 +1,27 @@
+{
+  "name": "shipping",
+  "version": "1.0.0",
+  "description": "shipping"
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha functionalTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabhgupta385/ms-shipping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourabhgupta385/ms-shipping/issues"
+  },
+  "homepage": "https://github.com/sourabhgupta385/ms-orders#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1"
+  }
+}
