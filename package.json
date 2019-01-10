@@ -1,7 +1,7 @@
 {
   "name": "shipping",
   "version": "1.0.0",
-  "description": "shipping"
+  "description": "shipping",
   "main": "test.js",
   "directories": {
     "test": "test"
