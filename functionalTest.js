@@ -23,7 +23,7 @@ describe("Testing Shipping API", () => {  // <= Pass in done callback
         chai.request(url)
             .get('/')
             .end((err, res) => {
-                expect(res).to.have.header('content-type', 'application/hal+json;charset=UTF-8');
+                expect(res).to.have.header('content-type', 'text/html');
                 //expect(res).to.have.status(403);
                 done();
             });
