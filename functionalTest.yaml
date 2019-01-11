@@ -12,4 +12,4 @@ scenarios:
           url: "/"
           expect:
             - statusCode: 200
-            - contentType: json
+            - contentType: text/html
